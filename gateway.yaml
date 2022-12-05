@@ -12,3 +12,7 @@ spring:
         uri: lb://event/
         predicates:
           - Path=/event/**
+      - id: search
+        uri: lb://search/
+        predicates:
+          - Path=/search/**
