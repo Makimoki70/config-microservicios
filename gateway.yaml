@@ -16,3 +16,11 @@ spring:
         uri: lb://search/
         predicates:
           - Path=/search/**
+      - id: ticket
+        uri: lb://ticket/
+        predicates:
+          - Path=/ticket/**
+      - id: message
+        uri: lb://message/
+        predicates:
+          - Path=/message/**
