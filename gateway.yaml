@@ -20,7 +20,3 @@ spring:
         uri: lb://ticket/
         predicates:
           - Path=/ticket/**
-      - id: message
-        uri: lb://message/
-        predicates:
-          - Path=/message/**
